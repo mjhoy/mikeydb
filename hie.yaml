@@ -1,0 +1,14 @@
+cradle:
+  cabal:
+    - path: "src/Main.hs"
+      component: "MikeyDB:exe:mikeydb"
+    - path: "src/Db.hs"
+      component: "MikeyDB:exe:mikeydb"
+    - path: "src/Types.hs"
+      component: "MikeyDB:exe:mikeydb"
+    - path: "src/Resp.hs"
+      component: "MikeyDB:exe:mikeydb"
+    - path: "src/Fsync.hs"
+      component: "MikeyDB:exe:mikeydb"
+    - path: "src/Server.hs"
+      component: "MikeyDB:exe:mikeydb"
